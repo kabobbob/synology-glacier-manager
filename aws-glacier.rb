@@ -14,4 +14,5 @@ glacier = AWS::Glacier.new(access_key_id: creds['access_key'], secret_access_key
 # loop through vaults
 glacier.vaults.each do |vault|
   puts vault.name
+  puts glacier.client.list_jobs(account_id: vault.account_id, vault_name: vault.name)
 end
