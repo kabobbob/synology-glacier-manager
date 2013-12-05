@@ -13,6 +13,7 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
+aws_credentials.yml
 
 # YARD artifacts
 .yardoc
