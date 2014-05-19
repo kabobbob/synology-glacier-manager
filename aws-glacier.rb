@@ -64,7 +64,7 @@ loop do
             job_parameters = {
               format: "CSV",
               type: "inventory-retrieval",
-              sns_topic: "arn:aws:sns:us-east-1:960382744440:Glacier-Job-Notifications"
+              sns_topic: creds['sns_topic']
             }
             response = glacier.client.initiate_job(account_id: vault.account_id, vault_name: vault.name, job_parameters: job_parameters)
 
