@@ -14,6 +14,8 @@ test/tmp
 test/version_tmp
 tmp
 aws_credentials.yml
+output_files/*
+.DS_Store
 
 # YARD artifacts
 .yardoc
