@@ -1,4 +1,4 @@
-aws-glacier
+synology-glacier-manager
 ===========
 
-Playing around with accessing vaults in AWS glacier.
+Interfacing with vaults created by Synology DSM.
